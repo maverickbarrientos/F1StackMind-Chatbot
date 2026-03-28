@@ -8,7 +8,7 @@ from vector import Vector
 load_dotenv()
 
 GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
-LLM_MODEL = "gemini-2.5-flash"
+LLM_MODEL = "gemini-2.5-pro"
 
 class RAGAgent():
     
