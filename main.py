@@ -30,7 +30,8 @@ async def rate_limit_handler(request: Request, exc: RateLimitExceeded):
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://f1stackmind.vercel.app"],
+    allow_origins=["https://f1stackmind.vercel.app",
+                   "http://localhost:5173"],
     allow_methods=["*"],
     allow_headers=["*"],
 )
